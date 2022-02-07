@@ -1,15 +1,14 @@
 version: 2
 
-formats: all
-
-sphinx:
-  configuration: docs/conf.py
-  
 python:
   install:
     - requirements: requirements/pip.txt
     - requirements: requirements/docs.txt
-      
+
+sphinx:
+  configuration: docs/conf.py
+  
+  
 build:
   os: ubuntu-20.04
   tools:
