@@ -1,5 +1,3 @@
- lines (175 sloc)  5.84 KB
-   
 """
 Shared Sphinx configuration.
 Each docset corresponds to a directory containing several rst/md files,
